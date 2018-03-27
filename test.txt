@@ -1,0 +1,4 @@
+
+> webpack_test@1.0.0 webpack2 /Users/yangchongduo/Documents/webpack2
+> webpack --config ./webpack.config.2.js
+

@@ -9,6 +9,4 @@ Array.prototype.unqiue=function(){
     setTimeout(()=>{
         console.log('yangchongduo')
     })
-
-
 }

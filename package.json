@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "webpack0": "webpack --config ./webpack.config.js",
     "webpack4": "webpack --config ./webpack.config.4.js",
     "webpack1": "webpack --config ./webpack.config.1.js",
     "webpack2": "webpack --config ./webpack.config.2.js",
@@ -13,9 +14,13 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "extract-text-webpack-plugin": "^2.0.0",
+    "html-webpack-local-cache-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.30.1",
     "minireset.css": "0.0.2",
     "moment": "^2.17.1",
-    "webpack": "^2.2.1"
+    "ramda": "^0.25.0",
+    "shelljs": "^0.7.8",
+    "webpack": "3.8.1"
   },
   "devDependencies": {
     "css-loader": "^0.26.2"

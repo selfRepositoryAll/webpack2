@@ -1,116 +1,48 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
-1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'i',
-1 verbose cli   '--save-dev',
-1 verbose cli   'extract-text-webpack-plugin@beta' ]
-2 info using npm@4.1.2
-3 info using node@v7.5.0
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readLocalPackageData
-7 silly fetchPackageMetaData extract-text-webpack-plugin@beta
-8 silly fetchNamedPackageData extract-text-webpack-plugin
-9 silly mapToRegistry name extract-text-webpack-plugin
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry https://registry.npmjs.org/
-12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'extract-text-webpack-plugin',
-12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   escapedName: 'extract-text-webpack-plugin',
-12 silly mapToRegistry   name: 'extract-text-webpack-plugin',
-12 silly mapToRegistry   rawSpec: '',
-12 silly mapToRegistry   spec: 'latest',
-12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri https://registry.npmjs.org/extract-text-webpack-plugin
-14 verbose request uri https://registry.npmjs.org/extract-text-webpack-plugin
-15 verbose request no auth needed
-16 info attempt registry request try #1 at 13:49:35
-17 verbose request using bearer token for auth
-18 verbose request id 977fbeb20dcdb2f7
-19 verbose etag W/"58aa9c91-f03a"
-20 verbose lastModified Mon, 20 Feb 2017 07:36:49 GMT
-21 http request GET https://registry.npmjs.org/extract-text-webpack-plugin
-22 http 200 https://registry.npmjs.org/extract-text-webpack-plugin
-23 verbose headers { server: 'nginx/1.10.1',
-23 verbose headers   'content-type': 'application/json',
-23 verbose headers   'last-modified': 'Fri, 24 Feb 2017 17:33:02 GMT',
-23 verbose headers   etag: 'W/"58b06e4e-109a1"',
-23 verbose headers   'content-encoding': 'gzip',
-23 verbose headers   'cache-control': 'max-age=300',
-23 verbose headers   'transfer-encoding': 'chunked',
-23 verbose headers   'accept-ranges': 'bytes',
-23 verbose headers   date: 'Mon, 27 Feb 2017 05:49:34 GMT',
-23 verbose headers   via: '1.1 varnish',
-23 verbose headers   connection: 'keep-alive',
-23 verbose headers   'x-served-by': 'cache-itm7423-ITM',
-23 verbose headers   'x-cache': 'MISS',
-23 verbose headers   'x-cache-hits': '0',
-23 verbose headers   'x-timer': 'S1488174574.338340,VS0,VE586',
-23 verbose headers   vary: 'Accept-Encoding' }
-24 silly get cb [ 200,
-24 silly get   { server: 'nginx/1.10.1',
-24 silly get     'content-type': 'application/json',
-24 silly get     'last-modified': 'Fri, 24 Feb 2017 17:33:02 GMT',
-24 silly get     etag: 'W/"58b06e4e-109a1"',
-24 silly get     'content-encoding': 'gzip',
-24 silly get     'cache-control': 'max-age=300',
-24 silly get     'transfer-encoding': 'chunked',
-24 silly get     'accept-ranges': 'bytes',
-24 silly get     date: 'Mon, 27 Feb 2017 05:49:34 GMT',
-24 silly get     via: '1.1 varnish',
-24 silly get     connection: 'keep-alive',
-24 silly get     'x-served-by': 'cache-itm7423-ITM',
-24 silly get     'x-cache': 'MISS',
-24 silly get     'x-cache-hits': '0',
-24 silly get     'x-timer': 'S1488174574.338340,VS0,VE586',
-24 silly get     vary: 'Accept-Encoding' } ]
-25 verbose get saving extract-text-webpack-plugin to C:\Users\Dell\AppData\Roaming\npm-cache\registry.npmjs.org\extract-text-webpack-plugin\.cache.json
-26 verbose correctMkdir C:\Users\Dell\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-27 silly fetchPackageMetaData Error: No compatible version found: extract-text-webpack-plugin@beta
-27 silly fetchPackageMetaData Valid install targets:
-27 silly fetchPackageMetaData 0.1.0, 0.1.1, 0.1.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 0.7.1, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1, 1.0.0, 1.0.1, 2.0.0-beta.0, 2.0.0-beta.1, 2.0.0-beta.2, 2.0.0-beta.3, 2.0.0-beta.4, 2.0.0-beta.5, 2.0.0-rc.0, 2.0.0-rc.1, 2.0.0-rc.2, 2.0.0-rc.3, 2.0.0
-27 silly fetchPackageMetaData
-27 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\fetch-package-metadata.js:158:16)
-27 silly fetchPackageMetaData     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\node_modules\iferr\index.js:13:50
-27 silly fetchPackageMetaData     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\utils\pulse-till-done.js:20:8
-27 silly fetchPackageMetaData     at saved (D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\cache\caching-client.js:174:7)
-27 silly fetchPackageMetaData     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
-27 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:112:15)
-27 silly fetchPackageMetaData  error for extract-text-webpack-plugin@beta { Error: No compatible version found: extract-text-webpack-plugin@beta
-27 silly fetchPackageMetaData Valid install targets:
-27 silly fetchPackageMetaData 0.1.0, 0.1.1, 0.1.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 0.7.1, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1, 1.0.0, 1.0.1, 2.0.0-beta.0, 2.0.0-beta.1, 2.0.0-beta.2, 2.0.0-beta.3, 2.0.0-beta.4, 2.0.0-beta.5, 2.0.0-rc.0, 2.0.0-rc.1, 2.0.0-rc.2, 2.0.0-rc.3, 2.0.0
-27 silly fetchPackageMetaData
-27 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\fetch-package-metadata.js:158:16)
-27 silly fetchPackageMetaData     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\node_modules\iferr\index.js:13:50
-27 silly fetchPackageMetaData     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\utils\pulse-till-done.js:20:8
-27 silly fetchPackageMetaData     at saved (D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\cache\caching-client.js:174:7)
-27 silly fetchPackageMetaData     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
-27 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:112:15) code: 'ETARGET' }
-28 silly rollbackFailedOptional Starting
-29 silly rollbackFailedOptional Finishing
-30 silly runTopLevelLifecycles Finishing
-31 silly install printInstalled
-32 verbose stack Error: No compatible version found: extract-text-webpack-plugin@beta
-32 verbose stack Valid install targets:
-32 verbose stack 0.1.0, 0.1.1, 0.1.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 0.7.1, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1, 1.0.0, 1.0.1, 2.0.0-beta.0, 2.0.0-beta.1, 2.0.0-beta.2, 2.0.0-beta.3, 2.0.0-beta.4, 2.0.0-beta.5, 2.0.0-rc.0, 2.0.0-rc.1, 2.0.0-rc.2, 2.0.0-rc.3, 2.0.0
-32 verbose stack
-32 verbose stack     at pickVersionFromRegistryDocument (D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\fetch-package-metadata.js:158:16)
-32 verbose stack     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\node_modules\iferr\index.js:13:50
-32 verbose stack     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\utils\pulse-till-done.js:20:8
-32 verbose stack     at saved (D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\lib\cache\caching-client.js:174:7)
-32 verbose stack     at D:\Users\Dell\AppData\Roaming\nvm\v7.5.0\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
-32 verbose stack     at FSReqWrap.oncomplete (fs.js:112:15)
-33 verbose cwd E:\webpack_test
-34 error Windows_NT 6.1.7601
-35 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save-dev" "extract-text-webpack-plugin@beta"
-36 error node v7.5.0
-37 error npm  v4.1.2
-38 error code ETARGET
-39 error notarget No compatible version found: extract-text-webpack-plugin@beta
-39 error notarget Valid install targets:
-39 error notarget 0.1.0, 0.1.1, 0.1.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 0.7.1, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1, 1.0.0, 1.0.1, 2.0.0-beta.0, 2.0.0-beta.1, 2.0.0-beta.2, 2.0.0-beta.3, 2.0.0-beta.4, 2.0.0-beta.5, 2.0.0-rc.0, 2.0.0-rc.1, 2.0.0-rc.2, 2.0.0-rc.3, 2.0.0
-40 error notarget This is most likely not a problem with npm itself.
-40 error notarget In most cases you or one of your dependencies are requesting
-40 error notarget a package version that doesn't exist.
-41 verbose exit [ 1, true ]
+1 verbose cli [ '/Users/yangchongduo/.nvm/versions/node/v6.10.3/bin/node',
+1 verbose cli   '/Users/yangchongduo/.nvm/versions/node/v6.10.3/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'webpack1' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose run-script [ 'prewebpack1', 'webpack1', 'postwebpack1' ]
+5 info lifecycle webpack_test@1.0.0~prewebpack1: webpack_test@1.0.0
+6 silly lifecycle webpack_test@1.0.0~prewebpack1: no script for prewebpack1, continuing
+7 info lifecycle webpack_test@1.0.0~webpack1: webpack_test@1.0.0
+8 verbose lifecycle webpack_test@1.0.0~webpack1: unsafe-perm in lifecycle true
+9 verbose lifecycle webpack_test@1.0.0~webpack1: PATH: /Users/yangchongduo/.nvm/versions/node/v6.10.3/lib/node_modules/npm/bin/node-gyp-bin:/Users/yangchongduo/Documents/webpack2/node_modules/.bin:/Users/yangchongduo/.yarn/bin:/Users/yangchongduo/.nvm/versions/node/v6.10.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mongodb/bin
+10 verbose lifecycle webpack_test@1.0.0~webpack1: CWD: /Users/yangchongduo/Documents/webpack2
+11 silly lifecycle webpack_test@1.0.0~webpack1: Args: [ '-c', 'webpack --config ./webpack.config.1.js' ]
+12 silly lifecycle webpack_test@1.0.0~webpack1: Returned: code: 2  signal: null
+13 info lifecycle webpack_test@1.0.0~webpack1: Failed to exec webpack1 script
+14 verbose stack Error: webpack_test@1.0.0 webpack1: `webpack --config ./webpack.config.1.js`
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/Users/yangchongduo/.nvm/versions/node/v6.10.3/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/yangchongduo/.nvm/versions/node/v6.10.3/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:886:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid webpack_test@1.0.0
+16 verbose cwd /Users/yangchongduo/Documents/webpack2
+17 error Darwin 16.4.0
+18 error argv "/Users/yangchongduo/.nvm/versions/node/v6.10.3/bin/node" "/Users/yangchongduo/.nvm/versions/node/v6.10.3/bin/npm" "run" "webpack1"
+19 error node v6.10.3
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error webpack_test@1.0.0 webpack1: `webpack --config ./webpack.config.1.js`
+22 error Exit status 2
+23 error Failed at the webpack_test@1.0.0 webpack1 script 'webpack --config ./webpack.config.1.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the webpack_test package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack --config ./webpack.config.1.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs webpack_test
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls webpack_test
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
